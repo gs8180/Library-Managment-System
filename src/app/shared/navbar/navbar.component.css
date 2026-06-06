@@ -1,0 +1,9 @@
+.nav-link{
+    font-weight:500;
+    margin-right:20px;
+}
+
+.btn-primary{
+    background:#6d28d9;
+    border:none;
+}
