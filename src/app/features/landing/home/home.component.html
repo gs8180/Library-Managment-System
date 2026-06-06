@@ -1,1 +1,110 @@
-<p>home works!</p>
+<div class="container py-5">
+  <!-- Hero Section -->
+  <div class="row align-items-center py-4 mb-5">
+    <div class="col-lg-6 mb-5 mb-lg-0">
+      <h1 class="hero-title fw-bold text-dark mb-3">
+        Welcome to <span class="text-brand">BookNest</span> Library
+      </h1>
+      <p class="hero-subtitle text-muted mb-4">
+        Discover, borrow, and explore thousands of books. Your next great read is just a click away.
+      </p>
+      <div class="d-flex flex-wrap gap-3">
+        <a routerLink="/books" class="btn btn-explore px-4 py-3 fw-bold">Explore Books</a>
+        <a routerLink="/about" class="btn btn-learn px-4 py-3 fw-bold">Learn More</a>
+      </div>
+    </div>
+    <div class="col-lg-6 text-center">
+      <div class="hero-img-container">
+        <img src="assets/hero_illustration.png" alt="BookNest Hero Illustration" class="img-fluid hero-image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Popular Categories Section -->
+  <div class="categories-section py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="section-title text-dark fw-bold mb-0">Popular Categories</h2>
+      <a routerLink="/books" class="view-all-link fw-bold text-decoration-none">View All</a>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-4">
+      <!-- Programming Card -->
+      <div class="col">
+        <div class="card h-100 category-card category-programming border-0">
+          <div class="card-body p-4 d-flex flex-column align-items-start">
+            <div class="icon-wrapper mb-3 programming-icon">
+              <i class="bi bi-file-code fs-3"></i>
+            </div>
+            <h5 class="category-name fw-bold mb-1">Programming</h5>
+            <span class="category-count text-muted">120 Books</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technology Card -->
+      <div class="col">
+        <div class="card h-100 category-card category-technology border-0">
+          <div class="card-body p-4 d-flex flex-column align-items-start">
+            <div class="icon-wrapper mb-3 technology-icon">
+              <i class="bi bi-shield-check fs-3"></i>
+            </div>
+            <h5 class="category-name fw-bold mb-1">Technology</h5>
+            <span class="category-count text-muted">95 Books</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Science Card -->
+      <div class="col">
+        <div class="card h-100 category-card category-science border-0">
+          <div class="card-body p-4 d-flex flex-column align-items-start">
+            <div class="icon-wrapper mb-3 science-icon">
+              <i class="bi bi-atom fs-3"></i>
+            </div>
+            <h5 class="category-name fw-bold mb-1">Science</h5>
+            <span class="category-count text-muted">80 Books</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Novels Card -->
+      <div class="col">
+        <div class="card h-100 category-card category-novels border-0">
+          <div class="card-body p-4 d-flex flex-column align-items-start">
+            <div class="icon-wrapper mb-3 novels-icon">
+              <i class="bi bi-book fs-3"></i>
+            </div>
+            <h5 class="category-name fw-bold mb-1">Novels</h5>
+            <span class="category-count text-muted">150 Books</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- History Card -->
+      <div class="col">
+        <div class="card h-100 category-card category-history border-0">
+          <div class="card-body p-4 d-flex flex-column align-items-start">
+            <div class="icon-wrapper mb-3 history-icon">
+              <i class="bi bi-journal-bookmark fs-3"></i>
+            </div>
+            <h5 class="category-name fw-bold mb-1">History</h5>
+            <span class="category-count text-muted">60 Books</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Self Help Card -->
+      <div class="col">
+        <div class="card h-100 category-card category-selfhelp border-0">
+          <div class="card-body p-4 d-flex flex-column align-items-start">
+            <div class="icon-wrapper mb-3 selfhelp-icon">
+              <i class="bi bi-currency-dollar fs-3"></i>
+            </div>
+            <h5 class="category-name fw-bold mb-1">Self Help</h5>
+            <span class="category-count text-muted">70 Books</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
